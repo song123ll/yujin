@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英雄介绍 - 余烬</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="index.html">余烬</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="heroes.html">英雄介绍</a></li>
+                    <li><a href="items.html">道具介绍</a></li>
+                    <li><a href="map.html">游戏地图</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="items" class="section">
+            <div class="item">
+                <div class="item-header">
+                    <img src="images/血瓶.png" alt="血瓶道具图标-红色药剂瓶" class="item-icon">
+                </div>
+                    <h3>血瓶</h3>
+                    <p>恢复生命值。</p>
+                    <ul>
+                        <li>Lv1: 恢复10%+固定值生命，CD45s<br>
+                            Lv2: 恢复15%<br>
+                            Lv3：恢复20%<br>
+                            Lv4：恢复30%<br>
+                            Lv5: 恢复30%，CD30s</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="item-header">
+                        <img src="images/胶水.png" alt="血瓶道具图标-红色药剂瓶" class="item-icon">
+                    </div>
+                    <h3>胶水</h3>
+                    <p>限制敌方移动跳跃。</p>
+                    <ul>
+                        <li>Lv1: 持续2s，CD30s<br>
+                            Lv2: 持续时间增加20%<br>
+                            Lv3：持续时间增加50%<br>
+                            Lv4：持续时间增加100%<br>
+                            Lv5：期间敌人受到伤害+20%
+                        </li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="item-header">
+                        <img src="images/蜜蜂出击.png" alt="血瓶道具图标-红色药剂瓶" class="item-icon">
+                    </div>
+                    <h3>蜜蜂出击</h3>
+                    <p>投掷蜂窝</p>
+                    <ul>
+                        <li>Lv1: 蜜蜂会对周围所有单位造成2%最大生命值+固定值（包括友方） cd40s<br>
+                            Lv2: 蜜蜂数量+5<br>
+                            Lv3：蜜蜂数量+10<br>
+                            Lv4：造成3%最大生命值<br>
+                            Lv5：数量x1.5，附带20%减速效果
+                        </li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="item-header">
+                        <img src="images/格挡盾.png" alt="血瓶道具图标-红色药剂瓶" class="item-icon">
+                    </div>
+                    <h3>格挡盾</h3>
+                    <p>降低受到的伤害</p>
+                    <ul>
+                        <li>Lv1: 开启后自身受到的伤害降低15%+固定值 持续5s  cd60s<br>
+                            Lv2: 降低20%<br>
+                            Lv3：持续+2s<br>
+                            Lv4：单次伤害超过生命上限10%时，额外减伤50%，只触发一次<br>
+                            Lv5：lv4可触发2次
+                        </li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="item-header">
+                        <img src="images/激光射线.png" alt="血瓶道具图标-红色药剂瓶" class="item-icon">
+                    </div>
+                    <h3>激光射线</h3>
+                    <p>对直线范围内敌人造成伤害</p>
+                    <ul>
+                        <li>Lv1: 对指定直线范围内造成10%最大生命伤害+固定值  cd60s<br>
+                            Lv2: 范围增加10%<br>
+                            Lv3：15%最大生命值<br>
+                            Lv4：伤害免疫减伤/格挡类效果<br>
+                            Lv5：致盲敌人1s（白屏）
+                        </li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="item-header">
+                        <img src="images/免坑.png" alt="血瓶道具图标-红色药剂瓶" class="item-icon">
+                    </div>
+                    <h3>免坑</h3>
+                    <p>免疫坑洞效果</p>
+                    <ul>
+                        <li>Lv1: 免疫坑洞效果持续5s<br>
+                            Lv2: 期间减伤10%<br>
+                            Lv3：持续+2s<br>
+                            Lv4：每受到一次伤害，减少0.5s cd<br>
+                            Lv5：cd45s
+                        </li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="item-header">
+                        <img src="images/核弹.png" alt="血瓶道具图标-红色药剂瓶" class="item-icon">
+                    </div>
+                    <h3>核弹</h3>
+                    <p>大范围伤害并造成坑洞效果</p>
+                    <ul>
+                        <li>Lv1: 对大范围内区域所有目标（包括友方）造成20%最大生命值+固定值伤害，
+                                 巨大坑洞效果，一场战斗只可使用一次。<br>
+                            Lv2: 范围增加10%<br>
+                            Lv3：范围增加20%<br>
+                            Lv4：对免坑的敌人伤害翻倍<br>
+                            Lv5：目标还将每秒受到1%最大生命值伤害辐射效果，直至死亡。
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 余烬游戏官网</p>
+        </div>
+    </footer>
+</body>
+</html>

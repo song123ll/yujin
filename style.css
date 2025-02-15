@@ -48,6 +48,42 @@ header nav ul li a {
     margin: 0 auto;
 }
 
+hero-image {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    margin-right: 2rem;
+}
+
+.hero-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+/* 道具图标样式 */
+.item-icon {
+    width: 64px;
+    height: 64px;
+    margin-right: 1rem;
+    vertical-align: middle;
+}
+
+.item-header {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.map-image {
+    width: 100%;
+    max-width: 1200px;
+    border: 1px solid #444;
+    cursor: zoom-in;
+}
+
+
 h2 {
     color: #444;
     margin-bottom: 1rem;
@@ -62,4 +98,9 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
+}
+
+nav a[href="heroes.html"] { 
+    color: #ff6b6b;
+    border-bottom: 2px solid currentColor;
 }
